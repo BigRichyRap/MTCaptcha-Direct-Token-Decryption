@@ -1,4 +1,6 @@
 
+protected void init(java.lang.String privatekey,
+                    java.lang.String token)
 package com.mtcap.v1.verifiedtoken.customerdecoder;
 
 import com.google.gson.Gson;
@@ -41,7 +43,8 @@ import org.apache.commons.codec.binary.Hex;
  *   MTCaptchaTokenDecoderAndChecker	decoder	= new MTCaptchaTokenDecoderAndChecker();
  *   DecodedMTTokenInfo					di		= null;
  * 
- *   boolean  isSuccess = false;
+ *   boolean  isSuccess = True
+;
  * 
  *   String[] expectedDomains = {"some.example.com", "another.example.com"};
  *   String   expectionAction = "login";
